@@ -1,0 +1,36 @@
+{
+  "name": "treehouselabs/:package_name",
+  "type": "library",
+  "description": ":package_description",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": ":author_name",
+      "email": "author@treehouse.nl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.5",
+    "scrutinizer/ocular": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TreeHouse\\Skeleton\\": "src/TreeHouse/Skeleton/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TreeHouse\\Skeleton\\Tests\\": "tests/TreeHouse/Skeleton/Tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
