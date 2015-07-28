@@ -28,6 +28,9 @@
       "TreeHouse\\Skeleton\\Tests\\": "tests/TreeHouse/Skeleton/Tests/"
     }
   },
+  "scripts": {
+    "test": "phpunit"
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
